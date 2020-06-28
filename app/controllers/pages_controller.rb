@@ -1,8 +1,8 @@
 class PagesController < ApplicationController
   def home
+    render 
   end
 
   def contact
-    render 'pages/contact.html.erb'
   end
 end
