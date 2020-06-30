@@ -1,10 +1,20 @@
 // Specific CSS for your home-page
+// $purple: #3A1F5D !default;
+// $darkpurple: #493657 !default;
+// $pink: #C83660 !default;
+// $hotpink: #F638DC !default;
+// $yellow: #FFC65A !default;
+// $orange: #E67E22 !default;
+// $gray: #0E0000 !default;
+// $light-gray: #F4F4F4 !default;
+
+
 body {
-background-color: $purple;
-color:$light-gray;
+background-color: #3A1F5D;
+color: #F4F4F4;
 font-family: Helvetica;
 &:h1{
-    color: $yellow;
+    color: #FFC65A;
     font-size: 2em;   
    }
 }
@@ -12,6 +22,6 @@ font-family: Helvetica;
 .contactForm{
   color:$pink;
 &:inputFille{
- background-color:$light-gray ;
+ background-color:#F4F4F4;
     }
 }
