@@ -1,0 +1,22 @@
+
+.footer-links  {
+    position: fixed;
+    top: 75%;
+}
+
+.footer-links a{
+display: block;
+text-align: center;
+padding: 16px;
+transition: all 0.3s ease;
+color: $hotpink;
+font-size: 20px;
+}
+
+.footer-links a:hover {
+  opacity: 1;
+  color: $pink;
+}
+
+
+

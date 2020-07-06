@@ -73,7 +73,7 @@ ul {
 
 a {
   text-decoration: none;
-  color:$pink;
+  color:$hotpink;
 }
 .flex {
   display: flex;
@@ -99,23 +99,30 @@ font-family: Helvetica;
 }
 
 .container{
-  // display:flex;
-  // align-items:center;
+  display:flex;
   margin: 1em;
   padding: 1em;
+  position: relative;
+  max-height: auto;
+   // align-items:center;
+  // bottom: 4em;
   // position: relative;
   // z-index: 1;
 } 
 
 .heroText{
-  flex: 2 1 40rem;
-  // text-align: center;
+
+ 
 }  
 
 .heroImage{
+  align-items: flex-end;
   flex: 1 1 40rem;
   background: linear-gradient(#c3b4d8, #e2b8c6);
   position: absolute;
-  bottom: 1em;
+  max-height: min-content;
+  max-width: 100%;
+  top: 255px;
+  left: 199px;
 }
 
