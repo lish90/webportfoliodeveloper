@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    padding: 1em;
+    position: relative;
+    max-height: auto;
+}
+
+.aboutText{
+    font-size:var(--text);
+    padding: 0.9em;
+
+    &:p{
+       padding: 0.9em;
+       margin-top: 1.2em;
+       margin-bottom: 0.2em;
+    }  
+}
+.aboutUnImage{
+    position: absolute;
+    max-height: min-content;
+    max-width: 100%;
+    top: 48em;
+    left: 31em;
+}
+ 
+.aboutUnImage img{
+    width: 99em;
+    height: 34em;
+}
+
+@media only screen and (max-width: 300px) {
+    .aboutUnImage img {
+        width: 24em;
+        height: 28em;
+    }
+    .aboutText {
+        min-width: 30em;
+    }
+    .aboutText h1 {
+       
+    }
+    .aboutText p {
+        
+    }
+
+  }

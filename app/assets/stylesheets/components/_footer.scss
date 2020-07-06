@@ -1,7 +1,8 @@
 
 .footer-links  {
     position: fixed;
-    top: 75%;
+    top: 74%;
+    left: 7%;
 }
 
 .footer-links a{
@@ -17,6 +18,12 @@ font-size: 3em;
   opacity: 1;
   color: $pink;
 }
+@media only screen and (max-width: 300px) {
+    .footer-links {
+        top: 35%;
+        right:4%;
+    }
 
+  }
 
 
