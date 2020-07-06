@@ -34,9 +34,9 @@
 
 html {
   font-size: 62.5%;
-  --header1: calc(2rem + 1vw);
-  --header2: calc(3.5rem + 1vw);
-  --header3: calc(3rem + 1vw);
+  --header1: calc(3.5rem + 1vw);
+  --header2: calc(3rem + 1vw);
+  --header3: calc(2rem + 1vw);
   --header4: calc(2.4rem + 1vw);
   --text: calc(1.5rem + 1vw);
   --big: calc(6rem + 1vw);
@@ -75,12 +75,7 @@ a {
   text-decoration: none;
   color:$hotpink;
 }
-.flex {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 body {
   font-family: "Ruhl", sans-serif;
   animation: opening 1s ease-in-out forwards;
@@ -99,7 +94,10 @@ font-family: Helvetica;
 }
 
 .container{
-  display:flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 1em;
   padding: 1em;
   position: relative;
@@ -111,14 +109,10 @@ font-family: Helvetica;
 } 
 
 .heroText{
-  flex: 
-
- 
+  padding: 0.9em;
 }  
 
 .heroImage{
-  align-items: flex-end;
-  flex: 1 1 40rem;
   background: linear-gradient(#c3b4d8, #e2b8c6);
   position: absolute;
   max-height: min-content;
