@@ -15,10 +15,15 @@
 
     &:p{
        padding: 0.9em;
-       margin-top: 1.2em;
-       margin-bottom: 0.2em;
+       margin: 0.5em;  
     }  
 }
+
+.aboutText h1{
+ width: 21em;
+ margin: 0.5em;
+}
+
 .aboutUnImage{
     position: absolute;
     max-height: min-content;
@@ -26,25 +31,34 @@
     top: 48em;
     left: 31em;
 }
+
  
 .aboutUnImage img{
-    width: 99em;
-    height: 34em;
+    width: 186em;
+    height: 32em;
 }
-
-@media only screen and (max-width: 300px) {
+// responsive view of the sites 
+@media only screen and (max-width: 334px) {
     .aboutUnImage img {
         width: 24em;
         height: 28em;
     }
     .aboutText {
-        min-width: 30em;
+        min-width: 21em;
     }
     .aboutText h1 {
-       
+      width: 8em;
+      padding: 0.5em;
     }
     .aboutText p {
-        
+       padding: 2em;
+       width: 19em;
     }
-
+    .aboutUnImage img{
+        position: absolute;
+        max-height: min-content;
+        width: 30em;
+        top: 37em;
+        right: -4em;
+    }
   }
