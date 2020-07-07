@@ -1,13 +1,60 @@
 .container{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    padding: 1em;
+    position: relative;
 }
 
 .skillsText{
+    font-size:var(--text);
+    margin: 1.1em; 
 
+    &:p{
+       padding: 0.9em;
+       margin: 0.5em; 
+        
+    }
 }
-.skillheader{
-
+.skillheader h1{
+    margin: 0.5em; 
+    max-height: min-content;
+    max-width: 100%;
+    top: 48em;
+    left: 31em; 
 }
 .skillUndraw{
-    
+    width: 34em;
 }
+  
+ img{
+    position: absolute;
+    vertical-align: bottom;
+}
+
+@media only screen and (max-width: 334px) {
+    // .aboutUnImage img {
+    //     width: 24em;
+    //     height: 28em;
+    // }
+    // .aboutText {
+    //     min-width: 21em;
+    // }
+    // .aboutText h1 {
+    //   width: 8em;
+    //   padding: 0.5em;
+    // }
+    // .aboutText p {
+    //    padding: 2em;
+    //    width: 19em;
+    // }
+    // .aboutUnImage img{
+    //     position: absolute;
+    //     max-height: min-content;
+    //     width: 30em;
+    //     top: 37em;
+    //     right: -4em;
+    // }
+  }
